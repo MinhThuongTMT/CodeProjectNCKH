@@ -98,7 +98,7 @@ const firebaseConfig = {
       }
       document.querySelector("#heartRate p span").textContent = y + " BPM";
       // Show the image when heart rate is updated
-      showImage("heartRate", "image/tim.png");
+      // showImage("heartRate", "image/tim.png");
     });
   }, 3000);
   
@@ -125,7 +125,7 @@ const firebaseConfig = {
       }
       document.querySelector("#spo2 p span").textContent = y + " %";
       // Show the image when SpO2 is updated
-      showImage("spo2", "image/spo2.png");
+      // showImage("spo2", "image/spo2.png");
     });
   }, 3000);
   
