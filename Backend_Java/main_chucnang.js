@@ -71,7 +71,7 @@ const firebaseConfig = {
       }
       document.querySelector("#temperature p span").textContent = y + " °C";
       // Show the image when temperature is updated
-      showImage("temperature", "image/t.png");
+      //showImage("temperature", "image/t.png");
     });
   }, 3000);
   
