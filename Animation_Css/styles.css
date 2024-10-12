@@ -926,9 +926,6 @@ img {
     
 }
 
-
-
-
 /* Phan cuoi trang */
 .bottom-footer {
     background-color: #BC0C1A;
@@ -939,41 +936,23 @@ img {
 }
 
 /* Back To Top */
-.back-to-top {
+.scrollToTopBtn {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 50px;
-    height: 50px;
-    background-color: #f13848;
+    display: none;
+    padding: 10px 20px;
+    background-color: #560405;
     color: white;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-    border-radius: 10%;
-    transition: all 0.3s ease-in-out;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.back-to-top i {
-    transition: transform 0.3s ease-in-out;
+.scrollToTopBtn:hover {
+    background-color: #d85757;
 }
 
-.back-to-top:hover {
-    background-color: #e1091b;
-}
-
-.back-to-top:hover i {
-    transform: translateY(-5px);
-}
-
-/* Hiển thị nút khi người dùng cuộn trang */
-.show-back-to-top {
-    opacity: 1;
-    visibility: visible;
-}
 
   
 

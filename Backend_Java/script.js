@@ -157,22 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Hiển thị nút "Back to top" khi cuộn xuống dưới
-window.addEventListener("scroll", function() {
-    const backToTopButton = document.querySelector(".back-to-top");
-    if (window.scrollY > 200) {
-        backToTopButton.classList.add("show-back-to-top");
-    } else {
-        backToTopButton.classList.remove("show-back-to-top");
-    }
-});
 
-// Cuộn về đầu trang khi nhấp vào nút
-document.querySelector(".back-to-top").addEventListener("click", function(e) {
-    e.preventDefault();
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
+
+
 
