@@ -48,15 +48,46 @@ body {
 }
 
 .note {
-    background-color: #e9ecef;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
     color: #333;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    line-height: 1.8;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto; /* Tạo khoảng cách với thanh tiêu đề */
+  }
+  
+  .note h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 3px;
+  }
+  
+  .section {
+    margin-bottom: 5px; /* Tạo khoảng cách giữa các phần */
+  }
+  
+  .section p {
+    margin: 5px 0; /* Khoảng cách giữa các dòng */
+  }
+  
+  @media (max-width: 768px) {
+    .note {
+      font-size: 14px;
+      padding: 5px;
+    }
+    
+    .note h2 {
+      font-size: 1.3em;
+    }
+  }
+
+  
 
 .container {
     display: flex;
